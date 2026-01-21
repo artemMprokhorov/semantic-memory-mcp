@@ -1,0 +1,9 @@
+# Semantic Memory MCP - Fixed versions for embedding consistency
+# DO NOT UPDATE without running recompute_embeddings.py
+
+flask==3.0.0
+flask-cors==4.0.0
+requests==2.31.0
+numpy==1.26.2
+torch==2.1.2
+transformers==4.36.2
