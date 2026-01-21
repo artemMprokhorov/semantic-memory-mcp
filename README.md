@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.svg" width="200" alt="Semantic Memory MCP Logo">
+</p>
+
 # Semantic Memory MCP
 
 **Personal Knowledge Management with Semantic Search for AI Assistants**
