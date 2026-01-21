@@ -79,9 +79,12 @@ ngrok http 5000
 - Python 3.9+ (only for local development)
 
 ### Tested On
-- macOS (Apple Silicon M1/M2/M3)
-- Ubuntu 22.04 / 24.04
-- Windows 11 + WSL2
+- macOS (Apple Silicon M3 Ultra)
+
+### Should Work On (untested)
+- Linux distributions with Docker support
+- Windows 11 + WSL2 + Docker Desktop
+- Other macOS versions (Intel/ARM)
 
 ## 📖 Documentation
 
