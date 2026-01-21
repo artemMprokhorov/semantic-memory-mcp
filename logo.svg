@@ -1,1 +1,59 @@
-²ø1šYì
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe"/>
+      <stop offset="100%" style="stop-color:#00f2fe"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="400" height="400" rx="40" fill="url(#bgGrad)"/>
+  
+  <g stroke="url(#lineGrad)" stroke-width="2" opacity="0.6" filter="url(#glow)">
+    <line x1="200" y1="200" x2="120" y2="100"/>
+    <line x1="200" y1="200" x2="280" y2="100"/>
+    <line x1="200" y1="200" x2="320" y2="180"/>
+    <line x1="200" y1="200" x2="300" y2="280"/>
+    <line x1="200" y1="200" x2="200" y2="320"/>
+    <line x1="200" y1="200" x2="100" y2="280"/>
+    <line x1="200" y1="200" x2="80" y2="180"/>
+    <line x1="120" y1="100" x2="280" y2="100"/>
+    <line x1="280" y1="100" x2="320" y2="180"/>
+    <line x1="320" y1="180" x2="300" y2="280"/>
+    <line x1="300" y1="280" x2="200" y2="320"/>
+    <line x1="200" y1="320" x2="100" y2="280"/>
+    <line x1="100" y1="280" x2="80" y2="180"/>
+    <line x1="80" y1="180" x2="120" y2="100"/>
+  </g>
+  
+  <g filter="url(#glow)">
+    <circle cx="200" cy="200" r="24" fill="url(#nodeGrad)"/>
+    <circle cx="200" cy="200" r="16" fill="#1a1a2e"/>
+    <circle cx="200" cy="200" r="8" fill="url(#nodeGrad)"/>
+    <circle cx="120" cy="100" r="14" fill="url(#nodeGrad)"/>
+    <circle cx="280" cy="100" r="14" fill="url(#nodeGrad)"/>
+    <circle cx="320" cy="180" r="12" fill="url(#nodeGrad)"/>
+    <circle cx="300" cy="280" r="14" fill="url(#nodeGrad)"/>
+    <circle cx="200" cy="320" r="12" fill="url(#nodeGrad)"/>
+    <circle cx="100" cy="280" r="14" fill="url(#nodeGrad)"/>
+    <circle cx="80" cy="180" r="12" fill="url(#nodeGrad)"/>
+    <circle cx="160" cy="150" r="5" fill="#667eea" opacity="0.8"/>
+    <circle cx="240" cy="150" r="5" fill="#667eea" opacity="0.8"/>
+    <circle cx="260" cy="240" r="5" fill="#667eea" opacity="0.8"/>
+    <circle cx="140" cy="240" r="5" fill="#667eea" opacity="0.8"/>
+  </g>
+</svg>
