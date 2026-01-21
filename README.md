@@ -60,6 +60,29 @@ ngrok http 5000
 3. Enter your ngrok URL: `https://your-subdomain.ngrok-free.app/sse`
 4. Add your API key as URL parameter: `?api_key=YOUR_KEY`
 
+## 📋 System Requirements
+
+### Minimum
+- **RAM:** 4GB (embedding model needs ~2GB)
+- **Disk:** 2GB free space (for Docker image + model cache)
+- **CPU:** Any modern x64/ARM64 processor
+- **OS:** Linux, macOS, Windows (with Docker)
+
+### Recommended
+- **RAM:** 8GB+
+- **Disk:** 5GB+ (for larger databases)
+- **SSD:** Recommended for faster embedding operations
+
+### Software
+- Docker & Docker Compose v2.0+
+- ngrok account (free tier works)
+- Python 3.9+ (only for local development)
+
+### Tested On
+- macOS (Apple Silicon M1/M2/M3)
+- Ubuntu 22.04 / 24.04
+- Windows 11 + WSL2
+
 ## 📖 Documentation
 
 - [Architecture Overview](docs/ARCHITECTURE.md)
