@@ -8,7 +8,7 @@
 
 A self-hosted MCP (Model Context Protocol) server that adds persistent, semantically-searchable memory to Claude and other AI assistants. Store notes, thoughts, and knowledge — search them by meaning, not just keywords.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![License](https://img.shields.io/badge/license-dual-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.9+-green.svg)
 ![Docker](https://img.shields.io/badge/docker-ready-blue.svg)
 
@@ -172,13 +172,18 @@ semantic-memory-mcp/
 
 Contributions welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
 
-## 📄 License
+## 📄 Licensing
 
-MIT License — see [LICENSE](LICENSE) for details.
+This project is dual-licensed:
+
+- Open-source / personal / non-commercial use: MIT License  
+  See the [LICENSE](LICENSE) file for full terms.
+- Commercial use, SaaS integration, proprietary redistribution, closed-source derivative works, or any use that does not comply with MIT terms: requires a separate commercial license.  
+  Contact: [system.uid@gmail.com] for pricing, terms, and licensing agreement.
 
 ## 🙏 Acknowledgments
 
-- [Anthropic](https://anthropic.com) — for Claude, MCP protocol, and making this collaboration possible
+- [Anthropic](https://anthropic.com) — for Claude and the MCP protocol
 - [Sentence Transformers](https://www.sbert.net/) — for embedding models
 - [ngrok](https://ngrok.com) — for tunneling
 
@@ -186,11 +191,8 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ## 👥 Authors
 
-**Artem Prokhorov** — Architecture, infrastructure, project vision  
-**Claude** (Anthropic) — Co-developer, documentation, implementation
+**Artem Prokhorov** — Creator and primary author
 
-*This project was built through human-AI collaboration.*
+**Development approach:** This system emerged through intensive human-AI collaboration. Major architectural contributions—including semantic search, embedding consistency checks, and technical documentation—were developed iteratively with Claude (Anthropic).
 
----
-
-**Made with 🧠 by Artem Prokhorov & Claude**
+Built with 🧠 by Artem Prokhorov
